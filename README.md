@@ -27,7 +27,7 @@ TODO: ensure same environment local and in Dask workers
 Install `prefect` in the local Python environment, according to it's [
 installation instructions](https://docs.prefect.io/core/getting_started/install.html).
 
-Start the prefect server with 
+Start a prefect server locally with 
 ```
 $> prefect server start --use-volume
 ```
@@ -41,7 +41,7 @@ prefect agent local start
 
 ### MLflow
 
-Start the dask cluster with
+Start a local mlflow tracking server
 ```
 $> start.bat
 ```
